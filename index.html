@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form id="register-form" method="GET">
+        <div>
+            <input class="input-item" type="text" name="fullname" placeholder="Full Name" required>
+        </div>
+        <div>
+            <input class="input-item" type="email" name="email" placeholder="Email" value="email@gmail.com" disabled>
+        </div>
+        <div>
+            <input class="input-item" type="number" name="age" placeholder="Age" min="18" max="58">
+        </div>
+        <div>
+            <input class="input-item" type="password" name="password" placeholder="Password" required>
+        </div>
+        <div>
+            <input class="input-item" type="password" name="password" placeholder="Confirm Password" required>
+        </div>
+        <div>
+            <input class="terms-check" type="checkbox" name="checkbox" placeholder="Checkbox" required>I agree to accept
+            term and conditions
+        </div>
+        <div>
+            <button class="btn-submit">Register</button>
+        </div>
+    </form>
+</body>
+
+</html>
